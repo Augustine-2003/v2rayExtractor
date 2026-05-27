@@ -1,1 +1,1 @@
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@109.206.241.125:443?encryption=none&fp=chrome&host=1-gjo.pages.dev&path=%2F&security=tls&sni=1-gjo.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AEE
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#%3E%3E%40v2ray_configs_pool%3A%3AEE
