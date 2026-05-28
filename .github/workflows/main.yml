@@ -2,7 +2,7 @@ name: V2Ray Config Extractor & Checker
 
 on:
   schedule:
-   - cron: '0 * * * *'
+    - cron: '*/30 * * * *'  # اجرا سر هر ۳۰ دقیقه برای حل مشکل تأخیرهای گیت‌هاب
   workflow_dispatch:
 
 permissions:
@@ -15,13 +15,6 @@ jobs:
       - name: Checkout Main Repository
         uses: actions/checkout@v4
 
-      - name: Checkout Sub-Checker Repository
-        uses: actions/checkout@v4
-        with:
-          repository: arshiacomplus/sub-checker
-          path: sub-checker
-
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -33,9 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
-          fi
-          if [ -f sub-checker/requirements.txt ]; then
-            pip install -r sub-checker/requirements.txt
           fi
 
       - name: Run Main Extractor Script
@@ -56,5 +46,4 @@ jobs:
           else
             git commit -m "📊 Update V2Ray configs"
             git push
-
           fi
