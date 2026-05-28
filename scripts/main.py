@@ -18,9 +18,9 @@ import telegram_sender
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 TELEGRAM_URLS = [
-    "https://t.me/s/prrofile_purple",
+    "https://t.me/v2nodes",
     "https://t.me/s/ShadowsocksM",
-    "https://t.me/s/ip_cf",
+    "https://t.me/Farah_VPN",
     "https://t.me/s/v2ray_configs_pool",
 ]
 
