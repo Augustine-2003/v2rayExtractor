@@ -1,2 +1,4 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHeVo1WG8waHQ0MXZZbVczSDQ=@149.28.255.6:816#%3E%3E%40v2ray_configs_pool%3A%3AUS
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.236:443#%3E%3E%40v2rayngvpn%3A%3AUS
+vless://06b65903-406d-4a41-8463-6fd5c0ee7798@45.130.125.160:443?path=%2F&security=tls&encryption=none&insecure=0&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=0&sni=sni.skylee4.cloudns.ch#%3E%3E%40v2ray_configs_pool%3A%3AUS
+trojan://mitivpn@45.130.125.76:443?type=ws&security=tls&path=%2F%3Fed%3D2048&sni=www.app-cloud.ir&alpn=http%2F1.1&fp=chrome&allowInsecure=1#%3E%3E%40v2ray_configs_pool%3A%3AUS
